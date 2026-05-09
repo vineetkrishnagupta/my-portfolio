@@ -1,0 +1,76 @@
+.header {
+  margin-bottom: 4rem;
+}
+
+.title {
+  font-size: clamp(2rem, 4vw, 2.5rem);
+  margin-bottom: 1rem;
+}
+
+.line {
+  height: 4px;
+  width: 60px;
+  background: linear-gradient(90deg, var(--primary), var(--secondary));
+  border-radius: 2px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.eduCard {
+  position: relative;
+  overflow: hidden;
+}
+
+.eduIcon {
+  width: 3rem;
+  height: 3rem;
+  background: rgba(79, 70, 229, 0.1);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary);
+  margin-bottom: 1.5rem;
+}
+
+.degree {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: var(--foreground);
+}
+
+.school {
+  color: var(--primary);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.meta {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 1.5rem;
+}
+
+.details {
+  list-style: none;
+  padding: 0;
+}
+
+.details li {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.details li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--primary);
+}
