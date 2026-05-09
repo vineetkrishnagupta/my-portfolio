@@ -16,7 +16,7 @@ export default function ContactSection() {
           <Button href="mailto:vineetkrishnagupta@gmail.com" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
             Say Hello
           </Button>
-          <Button variant="outline" href="https://wa.me/916394512899" target="_blank" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
+          <Button variant="outline" href="https://wa.me/916394512899" style={{ padding: '1rem 2rem', fontSize: '1.1rem' }}>
             WhatsApp
           </Button>
         </div>
