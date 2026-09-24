@@ -34,8 +34,8 @@ const projects = [
     description: 'A dynamic QR code generation tool supporting multiple formats like UPI, contact, and email. Includes customization options and multi-format export with real-time preview.',
     tags: ['React.js', 'JavaScript', 'QR API', 'UI/UX'],
     imageUrl: 'https://images.unsplash.com/photo-1595079676339-1534801ad6cf?q=80&w=2070&auto=format&fit=crop',
-    githubUrl: 'https://github.com/vineetkrishnagupta',
-    liveUrl: '#',
+    githubUrl: 'https://github.com/vineetkrishnagupta/QRGenPro',
+    liveUrl: 'https://qr-gen-pro-zeta.vercel.app',
   },
   {
     title: 'Map My Location',
