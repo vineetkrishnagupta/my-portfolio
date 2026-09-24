@@ -6,12 +6,12 @@ import ProjectCard from './ProjectCard';
 
 const projects = [
   {
-    title: 'Vyfoo (Restaurant POS)',
+    title: 'Royal-Spice (Restaurant POS)',
     description: 'A full-featured Restaurant POS system that streamlines order management, billing, and operations. Includes dynamic cart handling with variants and addons, real-time order tracking, and GST calculations.',
     tags: ['React.js', 'Node.js', 'Supabase', 'Bootstrap', 'REST API'],
     imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop',
-    githubUrl: 'https://github.com/vineetkrishnagupta',
-    liveUrl: 'https://vyfoo.com',
+    githubUrl: 'https://github.com/vineetkrishnagupta/Royal-Spice',
+    liveUrl: 'https://royalspice-eight.vercel.app/dashboard',
   },
   {
     title: 'AI Content Generator',
