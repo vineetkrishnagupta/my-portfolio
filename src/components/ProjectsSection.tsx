@@ -11,7 +11,7 @@ const projects = [
     tags: ['React.js', 'Node.js', 'Supabase', 'Bootstrap', 'REST API'],
     imageUrl: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?q=80&w=2070&auto=format&fit=crop',
     githubUrl: 'https://github.com/vineetkrishnagupta/Royal-Spice',
-    liveUrl: 'https://royalspice-eight.vercel.app/dashboard',
+    liveUrl: 'https://royalspice-eight.vercel.app/blog',
   },
   {
     title: 'AI Content Generator',
@@ -51,7 +51,7 @@ export default function ProjectsSection() {
   return (
     <section className="section" id="projects">
       <div className="container">
-        <motion.div 
+        <motion.div
           style={{ display: 'flex', alignItems: 'center', gap: '1.5rem', marginBottom: '3rem' }}
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -64,11 +64,11 @@ export default function ProjectsSection() {
           <div style={{ height: '1px', background: 'var(--border)', flexGrow: 1, maxWidth: '300px' }}></div>
         </motion.div>
 
-        <motion.div 
-          style={{ 
-            display: 'grid', 
-            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', 
-            gap: '2rem' 
+        <motion.div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
+            gap: '2rem'
           }}
           initial="hidden"
           whileInView="visible"
@@ -78,7 +78,7 @@ export default function ProjectsSection() {
           }}
         >
           {projects.map((project, index) => (
-            <motion.div 
+            <motion.div
               key={index}
               variants={{
                 hidden: { opacity: 0, y: 20 },
